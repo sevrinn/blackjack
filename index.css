@@ -3,3 +3,38 @@
   border: 0;
   padding: 0;
 }
+
+body {
+  background-image: url('images/tabletop.jpg');
+  background-size: cover;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px double goldenrod;
+  border-radius: 5px;
+}
+
+h1 {
+  color: goldenrod;
+}
+
+#display-message {
+  font-style: italic;
+}
+
+button {
+  color: #016f32;
+  font-weight: 900;
+  font-size: 1.2em;
+  width: 200px;
+  margin: 5px auto;
+  background-color: goldenrod;
+  padding: 10px;
+}
